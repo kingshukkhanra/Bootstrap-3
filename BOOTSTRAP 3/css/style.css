@@ -1,0 +1,364 @@
+/*.row{
+	margin-bottom: 15px;
+}
+.row > div{
+	background-color: grey;
+	border: 2px solid red;
+}*/
+body{
+	background-color:#61122f;
+	font-family:'Oxygen',sans-serif;
+	color: #fff;
+	font-size: 16px;
+}
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img{
+	background: url("../ICONS/onion.png");
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand{
+	padding: 10px;
+}
+.navbar-brand h1{
+	font-family: 'Lora',sans-serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover , .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+.navbar-brand p span{
+	vertical-align: middle;
+}
+h1:hover{
+    transition: 3s;
+    font-size: 1.8em;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover{
+	transition: 4s;
+	background-color: #e7e7e7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+#phone{
+	margin-top: 5px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div{
+	color: #557C3E;
+	text-align:right;
+	padding-right: 15px;
+}
+.navber-header button .navbar-toggle,.navbar-header .icon-bar{
+	border: 1px solid #61122F;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+   /*      end of header        */
+
+/*    single-catagory-page    */
+
+.menu-item-tile{
+	margin-bottom: 15px;
+}
+.menu-item-tile hr{
+	width: 80%;
+}
+.menu-item-tile .menu-item-price{
+	font-size: 1.1em;
+	text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span{
+	font-size: 0.6em;
+}
+.menu-item-photo{
+	position: relative;
+	border: 2px groove #3F0C1F;
+	overflow: hidden;
+	padding: 0;
+	margin-left: auto;
+	margin-right: -15px;
+	margin-bottom: 20px;
+	max-width: 250px;
+	max-height: 150px;
+}
+.menu-item-photo div{
+	background-color:#557C3E;
+	text-align: center;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	position: absolute;
+}
+.menu-item-description{
+	padding-right: 25px;
+}
+h3.menu-item-title{
+	margin: 0 0 10px;
+}
+.menu-item-details{
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+/*    end of single-category page    */
+
+
+ /*      MENU CATAGORY PAGE    */
+.catagory-tile{
+	height: 200px;
+	width: 200px;
+	position: relative;
+	border : 2px solid #3F0C1F;
+	overflow: hidden;
+	margin: 2px auto 15px auto;
+}
+.catagory-tile  span{
+	position: absolute;
+	bottom: 0;
+	right:0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #FFF;
+	opacity: 0.8;
+}
+.catagory-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-catagories-titles + div{
+	margin-bottom: 50px;
+}
+
+/*   end of menu-catagory-page    */ 
+
+
+
+   /*        home page          */
+.container .jumbotron{
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+
+#menu-tile,#special-tile,#map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 16px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+#menu-tile:hover,#special-tile:hover,#map-tile:hover
+{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile{
+	background: url(../images/food4.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#special-tile{
+	background: url(../images/food2.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#menu-tile span,#special-tile span,#map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.8em;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.6;
+}
+        /* footer     */
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	background-color: #222;
+	border-top: 0;
+}
+.panel-footer div.row{
+	margin-bottom: 30px;
+}
+#hours,#address{
+	line-height: 2;
+}
+#testimonials{
+	font-style: italic;
+}
+#hours > span ,#address > span{
+	font-size: 1.4em;
+}
+#address p{
+	color: #557C3E;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testimonials p:nth-child(2){
+	margin-top: 30px;
+}
+  /*   end of footer     */
+  /*   home page      */
+@media(min-width: 1200px){
+	.container .jumbotron{
+		background: url(../images/resturent1200px.jpeg);
+		background-repeat: no-repeat;
+		height: 675px;
+	}
+
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	#logo-img{
+	background: url("../ICONS/onion1.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 5px 5px 5px 0;
+}
+.container .jumbotron{
+		background: url(../images/resturent1200px.jpg);
+		background-repeat: no-repeat;
+		height: 570px;
+	}
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+
+    .container .jumbotron{
+		background: url(../images/resturent1200px.jpeg);
+		background-repeat: no-repeat;
+		height: 450px;
+	}
+}
+@media(max-width: 767px){
+	/*header     */
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{      /* restrurent name  */
+		padding-top: 10px;
+		font-size: 5vw;/* vw==>viewport width     1vw= 1% of viewport*/
+	}
+	.navbar-brand p{       /* cosher certified*/
+           font-size: .6em;
+           margin-top: 12px;
+	}
+	.navbar-brand p img{
+		height: 30px;
+	}
+	#collapsable-nav a{
+	font-size: 1.2em;
+    }
+   #collapsable-nav a span{
+	font-size: 1em;
+	margin-right: 5px;
+    }
+    #call-btn > a{
+	font-size: 1.5em;
+	display: block;
+	margin: 0 20px;
+	padding: 10px;
+	border: 2px solid #fff;
+	background-color: #f6b319;
+	text-align: center;
+	color: #951C49;
+}
+#xs-deliver{
+	margin-top: 5px;
+	font-size: .7em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.container .jumbotron{
+	margin-top: 30px;
+	padding: 0;	
+}
+#menu-tile,#special-tile{
+	width: 360px;
+    margin: 0 auto 15px;
+}
+.panel-footer section{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.panel-footer section:nth-child(3){
+    margin-bottom: 0;
+}
+.panel-footer section hr{
+	width: 50%;
+}
+
+.menu-item-tile .menu-item-photo{
+	margin-left: auto;
+	margin-right: auto;
+}
+.menu-item-tile .menu-item-price{
+	text-align: center;
+}
+.menu-item-description{
+	text-align: center;
+}
+}
+@media(max-width: 479px){
+	.navbar-brand h1{
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+	#menu-tile,#special-tile{
+	width: 260px;
+    margin: 0 auto 15px;
+    }
+  .col-xxs-12{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 100%;
+  }
+
+}
+ 
